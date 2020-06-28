@@ -105,7 +105,7 @@ When ready you can share (publish) your current snapshot using the command:
 
 *Once executed, the system may ask you to provide a 'commit' message describing your revisions and/or modifications - this is useful when reviewing and working with others.*
 
-**8. Restore or pull a previously shared snapshot back to your local repository **
+**8. Restore or pull a previously shared snapshot back to your local repository**
 
 Before you can start working locally with a previously shared snapshot you need to pull the files from your remote repository using the command:
 
