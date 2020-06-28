@@ -19,7 +19,7 @@ Essentially, 'git' is a non-linear, decentralised file version and tracking cont
 
 The following instructions illustrated using a Mac assumes that git  is already installed and should be executed via a 'Windows' command or 'Mac/Linux' terminal window.  
 
-
+ 
 
 **1. Checking git is installed**
 
@@ -31,7 +31,7 @@ You can easily check the state and version of your git version by using the comm
 
 `git version 2.24.3 (Apple Git-128)` 
 
-
+​    
 
 **2. Create a local repository (a.k.a. working directory) for your project**
 
@@ -49,7 +49,7 @@ Once executed, the system will likely reply with something similar to:
 Initialized empty Git repository in /Users/purplehominid/app-project-folder/.git/
 ```
 
-
+  
 
 **3. Create a new, empty file in the local folder*; this step can be skipped***
 
@@ -67,7 +67,7 @@ If you don't have a file available you can create one via the command or termina
 -rw-r--r--	1	Username	Group	0	20 Jun 08:45	filename
 ```
 
-
+  
 
 **4. Adding files to your project's git index (a.k.a. staging area)**
 
@@ -79,7 +79,7 @@ To enable tracking on specific files 'add' them to git staging area.  Files in t
 
 `$ git add .` 
 
-
+  
 
 **5. Checking the project's git index (a.k.a. staging area)**
 
@@ -99,7 +99,7 @@ Untracked files:
 	filenameY
 ```
 
-
+  
 
 **6. Create a snapshot of the current system (staging area)**
 
@@ -109,9 +109,9 @@ To commit (take a snapshot) of the current system use the command:
 
 *Once executed, the system may ask you to provide a 'commit' message describing the revisions or modifications.*
 
+  
 
-
-**7. Publish your snapshot to your remote repository  (staging area)**
+**7. Publish your snapshot to your remote repository  (staging area)** 
 
 When ready you can share (publish) your current snapshot using the command:
 
@@ -128,3 +128,5 @@ Before you can start working locally with a previously shared snapshot you need 
 `$ git pull`
 
 Once executed, the system will ....
+
+
