@@ -61,7 +61,7 @@ If you don't have a file available you can create one via the command or termina
 
 `$ ls -l`
 
-*Once executed, if you're using a Mac or Linux system you'll be provided with a list of all the files and folders in the current directory that may look something like:*
+*Once executed, if you're using a Mac or Linux system you'll be provided with a list of all the files and folders in the current directory - this may look something similar to:*
 
 ```
 -rw-r--r--	1	Username	Group	0	20 Jun 08:45	filename
@@ -75,7 +75,7 @@ To enable tracking on specific files 'add' them to git staging area.  Files in t
 
 `$ git add ./filename` 
 
-*Once executed, if there are no error the system replies with a new command prompt.  All files in local repository can be added simultaneously using the '.' character as a 'match all' wildcard:*
+*Once executed, if there are no errors the system replies with a new command prompt.  All files in local repository can be added simultaneously using the '.' character as a 'match all' wildcard:*
 
 `$ git add .` 
 
@@ -87,7 +87,7 @@ To check the current state of git as well as the untracked and tracked files  us
 
 `$ git status`
 
-Once executed, the system will respond with details on your branch (discussed later), commit details, staged files and untracked files.
+*Once executed, the system will respond with details on your branch (discussed later), commit details as well as any staged and untracked files.*
 
 ```
 On branch master
@@ -107,7 +107,24 @@ To commit (take a snapshot) of the current system use the command:
 
 `$ git commit`
 
+*Once executed, the system may ask you to provide a 'commit' message describing the revisions or modifications.*
 
 
 
+**7. Publish your snapshot to your remote repository  (staging area)**
 
+When ready you can share (publish) your current snapshot using the command:
+
+`$ git push`
+
+*Once executed, the system may ask you to provide a 'commit' message describing your revisions and/or modifications - this is useful when reviewing and working with others.*
+
+
+
+**8. Restore or pull a previously shared snapshot back to your local repository **
+
+Before you can start working locally with a previously shared snapshot you need to pull the files from your remote repository using the command:
+
+`$ git pull`
+
+Once executed, the system will ....
