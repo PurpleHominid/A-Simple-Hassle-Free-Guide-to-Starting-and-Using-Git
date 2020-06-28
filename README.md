@@ -45,7 +45,7 @@ Once executed, the system will likely reply with something similar to:
 Initialized empty Git repository in /Users/purplehominid/app-project-folder/.git/
 ```
 
-**3. Create a new, empty file in the local folder*; this step can be skipped**
+**3. Create a new, empty file in the local folder; this step can be skipped**
 
 If you don't have a file available you can create one via the command or terminal window; Mac or Linux users can create an empty file using the following command:
 
