@@ -79,7 +79,7 @@ To enable tracking on specific files 'add' them to git staging area.  Files in t
 
 `$ git add .` 
 
-  
+    
 
 **5. Checking the project's git index (a.k.a. staging area)**
 
@@ -100,7 +100,7 @@ Untracked files:
 ```
 
   
-
+  
 **6. Create a snapshot of the current system (staging area)**
 
 To commit (take a snapshot) of the current system use the command:
@@ -119,7 +119,7 @@ When ready you can share (publish) your current snapshot using the command:
 
 *Once executed, the system may ask you to provide a 'commit' message describing your revisions and/or modifications - this is useful when reviewing and working with others.*
 
-
+  
 
 **8. Restore or pull a previously shared snapshot back to your local repository **
 
